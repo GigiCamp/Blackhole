@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pa_pe.blackhole">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.menu.MenuActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.menu.ExtraActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.menu.CreditsActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.dashboard.DashBoardActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.chat.ChatAppActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.users.FriendsActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.users.UserPageActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.menu.InfoActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.quiz.QuizActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.quiz.TextActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.quiz.EndQuizActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.menu.IntroActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.pa_pe.blackhole.menu.LoginActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+</manifest>
